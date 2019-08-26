@@ -1,0 +1,74 @@
+{
+    "name": "App\\Http\\Controllers\\Auth\\LoginController",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Auth",
+    "file": "\/home\/hector-chinchilla\/Documentos\/Laravel\/stisla-laravel\/app\/Http\/Controllers\/Auth\/LoginController.php",
+    "relative_file": null,
+    "hash": "4dd1b006ce16ee1fc4b015bcec54231cc740222f",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "AuthenticatesUsers": "Illuminate\\Foundation\\Auth\\AuthenticatesUsers"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Illuminate\\Foundation\\Auth\\AuthenticatesUsers": "Illuminate\\Foundation\\Auth\\AuthenticatesUsers"
+    },
+    "properties": {
+        "redirectTo": {
+            "name": "redirectTo",
+            "line": 27,
+            "short_desc": "Redirige a los usuarios despu\u00e9s de iniciar sesi\u00f3n.",
+            "long_desc": ".",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "value": "\/home",
+                "attributes": {
+                    "startLine": 27,
+                    "endLine": 27,
+                    "kind": 1
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 34,
+            "short_desc": "Crea una nueva instancia de controlador.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,51 @@
+{
+    "name": "App\\Http\\Middleware\\CheckForMaintenanceMode",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Middleware",
+    "file": "\/home\/hector-chinchilla\/Documentos\/Laravel\/stisla-laravel\/app\/Http\/Middleware\/CheckForMaintenanceMode.php",
+    "relative_file": null,
+    "hash": "eeea71e809e6c8d338b8e9504c27f3646ad7f103",
+    "parent": "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Middleware": "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "except": {
+            "name": "except",
+            "line": 14,
+            "short_desc": "Los URI que deber\u00edan ser accesibles mientras el modo de mantenimiento est\u00e1 habilitado.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_Array",
+                "items": [],
+                "attributes": {
+                    "startLine": 14,
+                    "endLine": 16,
+                    "kind": 2
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": [],
+    "constants": []
+}

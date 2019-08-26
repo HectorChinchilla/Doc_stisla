@@ -1,0 +1,88 @@
+{
+    "name": "App\\Http\\Middleware\\TrimStrings",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Middleware",
+    "file": "\/home\/hector-chinchilla\/Documentos\/Laravel\/stisla-laravel\/app\/Http\/Middleware\/TrimStrings.php",
+    "relative_file": null,
+    "hash": "05bee969265ce408df89a1e7c72691ea8e485ac5",
+    "parent": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Middleware": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "except": {
+            "name": "except",
+            "line": 14,
+            "short_desc": "Los nombres de los atributos que no se deben recortar.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_Array",
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "key": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "value": "password",
+                            "attributes": {
+                                "startLine": 15,
+                                "endLine": 15,
+                                "kind": 1
+                            }
+                        },
+                        "byRef": false,
+                        "attributes": {
+                            "startLine": 15,
+                            "endLine": 15
+                        }
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "key": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "value": "password_confirmation",
+                            "attributes": {
+                                "startLine": 16,
+                                "endLine": 16,
+                                "kind": 1
+                            }
+                        },
+                        "byRef": false,
+                        "attributes": {
+                            "startLine": 16,
+                            "endLine": 16
+                        }
+                    }
+                ],
+                "attributes": {
+                    "startLine": 14,
+                    "endLine": 17,
+                    "kind": 2
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": [],
+    "constants": []
+}

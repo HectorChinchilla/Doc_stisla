@@ -1,0 +1,129 @@
+{
+    "name": "App\\Providers\\RouteServiceProvider",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Providers",
+    "file": "\/home\/hector-chinchilla\/Documentos\/Laravel\/stisla-laravel\/app\/Providers\/RouteServiceProvider.php",
+    "relative_file": null,
+    "hash": "23e1f866b77af6ef64560d54f0a8678d511f45e3",
+    "parent": "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Route": "Illuminate\\Support\\Facades\\Route",
+        "ServiceProvider": "Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "namespace": {
+            "name": "namespace",
+            "line": 15,
+            "short_desc": "Este espacio de nombres se aplica a las rutas del controlador.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "value": "App\\Http\\Controllers",
+                "attributes": {
+                    "startLine": 15,
+                    "endLine": 15,
+                    "kind": 1
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "boot": {
+            "name": "boot",
+            "line": 22,
+            "short_desc": "Define los enlaces de modelo de ruta.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "map": {
+            "name": "map",
+            "line": 34,
+            "short_desc": "Define las rutas para la aplicaci\u00f3n.",
+            "long_desc": ".",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "mapWebRoutes": {
+            "name": "mapWebRoutes",
+            "line": 48,
+            "short_desc": "Define  las rutas \"web\" para la aplicaci\u00f3n.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "mapApiRoutes": {
+            "name": "mapApiRoutes",
+            "line": 60,
+            "short_desc": "Define las rutas \"api\" para la aplicaci\u00f3n.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

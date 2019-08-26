@@ -1,0 +1,74 @@
+{
+    "name": "App\\Http\\Controllers\\Auth\\VerificationController",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Auth",
+    "file": "\/home\/hector-chinchilla\/Documentos\/Laravel\/stisla-laravel\/app\/Http\/Controllers\/Auth\/VerificationController.php",
+    "relative_file": null,
+    "hash": "c73f8e3c57f63ef552ae377b788412c0a0129db2",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "VerifiesEmails": "Illuminate\\Foundation\\Auth\\VerifiesEmails"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Illuminate\\Foundation\\Auth\\VerifiesEmails": "Illuminate\\Foundation\\Auth\\VerifiesEmails"
+    },
+    "properties": {
+        "redirectTo": {
+            "name": "redirectTo",
+            "line": 27,
+            "short_desc": "Redirige a los usuarios despu\u00e9s de la verificaci\u00f3n.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "value": "\/home",
+                "attributes": {
+                    "startLine": 27,
+                    "endLine": 27,
+                    "kind": 1
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 34,
+            "short_desc": "Crea una nueva instancia de controlador.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,69 @@
+{
+    "name": "App\\Http\\Controllers\\DashboardController",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "\/home\/hector-chinchilla\/Documentos\/Laravel\/stisla-laravel\/app\/Http\/Controllers\/DashboardController.php",
+    "relative_file": null,
+    "hash": "e9e714080d69ca3bfd50726ec61ad62d29bb3b7b",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__invoke": {
+            "name": "__invoke",
+            "line": 9,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 9,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "Illuminate",
+                            "Http",
+                            "Request"
+                        ],
+                        "attributes": {
+                            "startLine": 9,
+                            "endLine": 9
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,46 @@
+{
+    "name": "App\\Providers\\BroadcastServiceProvider",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Providers",
+    "file": "\/home\/hector-chinchilla\/Documentos\/Laravel\/stisla-laravel\/app\/Providers\/BroadcastServiceProvider.php",
+    "relative_file": null,
+    "hash": "af1d9014abb5dab2daef7a4ffc5407310c5176ff",
+    "parent": "Illuminate\\Support\\ServiceProvider",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ServiceProvider": "Illuminate\\Support\\ServiceProvider",
+        "Broadcast": "Illuminate\\Support\\Facades\\Broadcast"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "boot": {
+            "name": "boot",
+            "line": 15,
+            "short_desc": "Referencia al framework Bootstrap.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}
